@@ -23,8 +23,4 @@ public class StudyController {
 
     }
 
-//    @GetMapping(""\\)
-//    public ResponseEntity<Void> test() {
-//        return ResponseEntity.ok().build();
-//    }
 }
