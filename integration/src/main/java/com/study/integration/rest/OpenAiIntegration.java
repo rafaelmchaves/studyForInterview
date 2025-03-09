@@ -28,7 +28,7 @@ public class OpenAiIntegration {
         OpenAIRequest request = new OpenAIRequest(
                 "gpt-3.5-turbo",
                 List.of(new Message("user", message)),
-                0.7
+                0.1
         );
 
         return webClient.post()
