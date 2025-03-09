@@ -24,7 +24,7 @@ public class OpenAiIntegration {
     }
 
     public Mono<String> getChatResponse(String userMessage) {
-        final var message = "I want that you create a smal list of questions and anwsers about: " + userMessage;
+        final var message = "I want that you create a small list of questions and answers about: " + userMessage;
         OpenAIRequest request = new OpenAIRequest(
                 "gpt-3.5-turbo",
                 List.of(new Message("user", message)),
